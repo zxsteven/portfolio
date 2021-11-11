@@ -1629,8 +1629,30 @@ body {
     margin-top: 50px;
   }
 
+  .footer-block.second {
+    margin-left: 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .footer-inner-block {
+    margin-left: 0px;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
+
   .footer-inner-block.second {
-    margin-top: 40px;
+    margin-top: 0px;
+    margin-left: 40px;
   }
 }
 
